@@ -1,0 +1,408 @@
+
+
+.indexhtml {
+  width               : 100%;
+  min-width           : 1425px;
+  height              : 100vh;
+  min-height          : 2259px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.indexhtml .group {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1435px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 841px;
+  align-items         : center;
+  height              : 477px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.indexhtml .group .rectanglecopy2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 477px;
+  width               : 477px;
+  position            : absolute;
+  margin              : 0;
+  left                : 958px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group .rectanglecopy3 {
+  background-color    : rgba(255, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 477px;
+  width               : 477px;
+  position            : absolute;
+  margin              : 0;
+  left                : 479px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group .rectanglecopy4 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 477px;
+  width               : 477px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1172px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 105px;
+  align-items         : center;
+  height              : 667px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.indexhtml .group2 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 176px;
+  height              : 330px;
+  width               : 416px;
+  position            : absolute;
+  margin              : 0;
+  left                : 326px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group2 .dribble {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 175px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.indexhtml .group2 .dribble:hover {
+  transform           : scale(1.1);
+}
+.indexhtml .group2 .dribble .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 174px;
+  width               : 119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group2 .dribble .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group2 .instagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 496px;
+  height              : 171px;
+  width               : 217px;
+  position            : absolute;
+  margin              : 0;
+  left                : 955px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.indexhtml .group2 .instagram:hover {
+  transform           : scale(1.1);
+}
+.indexhtml .group2 .instagram .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 171px;
+  width               : 217px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.indexhtml .group2 .instagram .path3:hover {
+  
+}
+.indexhtml .group2 .instagram .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 76px;
+  height              : 55px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  -ms-transform       : rotate(14deg); /* IE 9 */
+  -webkit-transform   : rotate(14deg); /* Chrome, Safari, Opera */
+  transform           : rotate(14deg);
+  transition          : all 0.2s ease-in-out;
+}
+.indexhtml .group2 .instagram .shape:hover {
+  
+}
+.indexhtml .group2 .mail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : 238px;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 611px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.indexhtml .group2 .mail:hover {
+  transform           : scale(1.1);
+}
+.indexhtml .group2 .mail .path3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 167px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(-53deg); /* IE 9 */
+  -webkit-transform   : rotate(-53deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-53deg);
+}
+.indexhtml .group2 .mail .shapecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 55px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  -ms-transform       : rotate(-5deg); /* IE 9 */
+  -webkit-transform   : rotate(-5deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-5deg);
+}
+.indexhtml .group2 .behance {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 222px;
+  width               : 205px;
+  position            : absolute;
+  margin              : 0;
+  left                : 967px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.indexhtml .group2 .behance:hover {
+  transform           : scale(1.1);
+}
+.indexhtml .group2 .behance .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 222px;
+  width               : 205px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group2 .behance .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 64px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(20deg); /* IE 9 */
+  -webkit-transform   : rotate(20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(20deg);
+}
+.indexhtml .group2 .github {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 389px;
+  height              : 174px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.indexhtml .group2 .github:hover {
+  transform           : scale(1.1);
+}
+.indexhtml .group2 .github .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 173px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.indexhtml .group2 .github .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 40px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(-14deg); /* IE 9 */
+  -webkit-transform   : rotate(-14deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-14deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
