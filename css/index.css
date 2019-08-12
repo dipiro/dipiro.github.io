@@ -1,11 +1,9 @@
-@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
-@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
-@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
+
 /* lines  */
 .line {
 width: 1px;
 height: 2253px;
-border: solid 1px rgba(53, 53, 53, 0.05);
+border: solid 1px rgba(53, 53, 53, 0.1);
 position: relative;
 }
 .kek {
@@ -42,7 +40,7 @@ position: relative;
   display              : flex;
   margin: 0 auto;
   position: absolute;
-  left: 15%;
+  left: 10%;
 }
 .behance {
   transition           : all 0.2s ease-in-out;
