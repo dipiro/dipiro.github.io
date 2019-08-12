@@ -3,7 +3,7 @@
 .line {
 width: 1px;
 height: 2253px;
-border: solid 1px rgba(53, 53, 53, 0.1);
+border: solid 1px rgba(53, 53, 53, 0.05);
 position: relative;
 }
 .kek {
