@@ -1,16 +1,15 @@
 
 /* lines  */
 .line {
-width: 1px;
 height: 2253px;
 border: solid 1px rgba(53, 53, 53, 0.05);
 position: relative;
+background: #FFFFFF
 }
 .kek {
   z-index: 1;
   position: absolute
 }
-
 /* the end  */
 /* blocks */
 .center {
@@ -40,7 +39,7 @@ position: relative;
   display              : flex;
   margin: 0 auto;
   position: absolute;
-  left: 10%;
+  left: 7%;
 }
 .behance {
   transition           : all 0.2s ease-in-out;
@@ -117,8 +116,5 @@ div:nth-of-type(even){
   z-index: 1;  
   background-color: ##F5F5F5;  
   box-shadow: 0 20px 14px -14px ##F5F5F5;  
-}
-div:nth-of-type(2) {  
-  background-color: #F5F5F5;    
 }
 /* the end  */
