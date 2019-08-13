@@ -3,22 +3,23 @@ body, html{
   height              : 100%;
 }
 /* lines  */
+.kek {
+  z-index             : -1000;
+  position            : absolute
+}
 .line {
 height                : 1000px;
 border                : solid 1px rgba(53, 53, 53, 0.05);
 position              : relative;
 background            : #FFFFFF;
 }
-.kek {
-  z-index             : -1000;
-  position            : absolute
-}
+
 /* the end  */
 /* blocks */
 .center {
   display             : flex;
   min-width           : 940px;
-  height              : 100vh;
+  height              : 950px;
 }
 .block1 {
 display               : flex;
