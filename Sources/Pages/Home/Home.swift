@@ -28,5 +28,7 @@ private extension Home {
                     .margin(.bottom, 0)         
             }
         }
+        .margin(.top, 72)
+        .margin(.bottom, 24)
     }
 }

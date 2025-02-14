@@ -35,7 +35,7 @@ struct ExperienceSection: HTML {
                 }
             }
             .horizontalAlignment(.center)
-            .frame(width: .percent(80%), alignment: .center)
+            .frame(width: .percent(76%), alignment: .center)
         }
         .frame(alignment: .center)
     }

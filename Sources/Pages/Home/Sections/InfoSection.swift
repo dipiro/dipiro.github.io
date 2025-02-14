@@ -10,7 +10,7 @@ struct InfoSection: HTML {
             into
             infoLinks
         }
-        .frame(minHeight: .vh(85%))
+        .frame(minHeight: .vh(75%))
     }
 }
 
@@ -21,9 +21,9 @@ private extension InfoSection {
             Image("/images/me.jpeg")
                 .resizable()
                 .frame(width: 128, height: 128)
-                .cornerRadius(16)
+                .cornerRadius(.max)
             
-            Text("Hello 👋, I'm Dzmitry")
+            Text("Hi there 👋")
                 .font(.title1)
                 .fontWeight(.black)
                 .margin(.top, 24)
@@ -45,15 +45,19 @@ private extension InfoSection {
                 Link(target: media.urlString) {
                     Image(media.iconString)
                         .resizable()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 40, height: 40)
+//                        .foregroundStyle(.red)
+                        
                 }
-                .linkStyle(.button)
-                .role(.light)
-                .target(.blank)
-                .relationship(.noOpener, .noReferrer)
-                .margin(.trailing, 20)
+                .margin(.horizontal, 16)
+//                .linkStyle(.button)
+////                .role(.light)
+//                .target(.blank)
+//                .relationship(.noOpener, .noReferrer)
+//                .margin(.trailing, 20)
+//                .foregroundStyle(.red)
             }
         }
-        .margin(.top, 24)
+        .margin(.top, 28)
     }
 }

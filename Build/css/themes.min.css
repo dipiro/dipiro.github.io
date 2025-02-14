@@ -5,11 +5,11 @@
     --dark-theme-id: "dark";
 
     /* Dark theme variables */
-        --bs-primary: rgb(0 0 255 / 100%);
-    --bs-primary-rgb: 0, 0, 255;
-    --bs-primary-text-emphasis: rgb(102 102 255 / 100%);
-    --bs-primary-bg-subtle: rgb(0 0 50 / 100%);
-    --bs-primary-border-subtle: rgb(0 0 153 / 100%);
+        --bs-primary: rgb(13 110 253 / 100%);
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-primary-text-emphasis: rgb(109 168 253 / 100%);
+    --bs-primary-bg-subtle: rgb(2 21 50 / 100%);
+    --bs-primary-border-subtle: rgb(7 66 151 / 100%);
     --bs-secondary: rgb(108 117 125 / 100%);
     --bs-secondary-rgb: 108, 117, 125;
     --bs-secondary-text-emphasis: rgb(166 172 177 / 100%);
@@ -35,11 +35,11 @@
     --bs-danger-text-emphasis: rgb(234 133 143 / 100%);
     --bs-danger-bg-subtle: rgb(43 10 13 / 100%);
     --bs-danger-border-subtle: rgb(132 31 41 / 100%);
-    --bs-light: rgb(255 0 0 / 100%);
-    --bs-light-rgb: 255, 0, 0;
-    --bs-light-text-emphasis: rgb(255 102 102 / 100%);
-    --bs-light-bg-subtle: rgb(50 0 0 / 100%);
-    --bs-light-border-subtle: rgb(102 0 0 / 100%);
+    --bs-light: rgb(248 249 250 / 100%);
+    --bs-light-rgb: 248, 249, 250;
+    --bs-light-text-emphasis: rgb(250 251 252 / 100%);
+    --bs-light-bg-subtle: rgb(49 49 49 / 100%);
+    --bs-light-border-subtle: rgb(99 99 100 / 100%);
     --bs-dark: rgb(33 37 41 / 100%);
     --bs-dark-rgb: 33, 37, 41;
     --bs-dark-text-emphasis: rgb(210 211 212 / 100%);
@@ -47,8 +47,8 @@
     --bs-dark-border-subtle: rgb(77 80 83 / 100%);
     --bs-body-color: rgb(222 226 230 / 100%);
     --bs-body-color-rgb: 222, 226, 230;
-    --bs-body-bg: rgb(22 22 22 / 100%);
-    --bs-body-bg-rgb: 22, 22, 22;
+    --bs-body-bg: rgb(33 37 41 / 100%);
+    --bs-body-bg-rgb: 33, 37, 41;
     --bs-emphasis-color: rgb(255 255 255 / 100%);
     --bs-emphasis-color-rgb: 255, 255, 255;
     --bs-secondary-color: rgb(56610 57630 58650 / 191%);

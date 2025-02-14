@@ -3,7 +3,7 @@ import Ignite
 
 enum AppConstants {
     enum Colors {
-        static let subblock: Color = .init(hex: "#1D1D1D")
+        static let subblock: Color = .init(hex: "#2e2e33")
     }
     
     enum Media: CaseIterable {
@@ -27,11 +27,11 @@ enum AppConstants {
         var iconString: String {
             switch self {
             case .gihtub:
-                return "/images/github.png"
+                return "/images/github.svg"
             case .linkedIn:
-                return "/images/linkedin.png"
+                return "/images/linkedin1.svg"
             case .appStore:
-                return "/images/app_store.png"
+                return "/images/appstore.svg"
             case .resume:
                 return ""
             case .email:

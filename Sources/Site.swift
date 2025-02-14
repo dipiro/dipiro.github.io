@@ -23,7 +23,7 @@ struct ExampleSite: Site {
     var author = ""
     
     var lightTheme: (any Theme)? = nil
-    var darkTheme: (any Theme)? = MyDarkTheme()
+//    var darkTheme: (any Theme)? = MyDarkTheme()
 
     var homePage = Home()
     var layout = MainLayout()

@@ -6,16 +6,15 @@ struct MainLayout: Layout {
         HTMLDocument {
             HTMLHead(for: page)
             HTMLBody {
-                NavigationBar(logo: "DP") {
+                NavigationBar(logo: "Dzmitry Pirozhnik") {
                     navLink("Email", target: "https://github.com/twostraws/Ignite")
                     navLink("Resume", target: "https://github.com/twostraws/Ignite")
                 }
                 .navigationItemAlignment(.trailing)
-                .position(.fixedTop)
-                .background(.firebrick)
+                .background(.clear)
                 
                 Section(page.body)
-                
+
                 IgniteFooter()
             }
         }
