@@ -25,7 +25,7 @@ struct ExperienceSection: HTML {
                                 }
                             }
                         }
-                        .margin(16)
+                        .margin(24)
                     }
                     .horizontalAlignment(.leading)
                     .background(AppConstants.Colors.subblock)

@@ -23,7 +23,7 @@ struct ExampleSite: Site {
     var author = ""
     
     var lightTheme: (any Theme)? = nil
-//    var darkTheme: (any Theme)? = MyDarkTheme()
+    var darkTheme: (any Theme)? = MyDarkTheme()
 
     var homePage = Home()
     var layout = MainLayout()
@@ -32,7 +32,7 @@ struct ExampleSite: Site {
 struct MyDarkTheme: DarkTheme {
     static var name: String = "dark"
     var syntaxHighlighterTheme: HighlighterTheme = .xcodeDark
-    var background: Color = .init(hex: "#161616")
+    var background: Color = .init(hex: "#060606")
 //    var light: Color = .red
 //    var accent: Color = .blue
     

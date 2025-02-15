@@ -2,15 +2,15 @@ import Foundation
 import Ignite
 
 struct InfoSection: HTML {
-    private var medias: [AppConstants.Media] = [.linkedIn, .gihtub, .appStore]
-
+    private var medias: [AppConstants.Media] = [.linkedIn, .gihtub, .appStore, .email, .resume]
+    
     // MARK: - Body
     var body: some HTML {
         VStack {
             into
             infoLinks
         }
-        .frame(minHeight: .vh(75%))
+        .frame(minHeight: .vh(90%))
     }
 }
 
@@ -20,7 +20,7 @@ private extension InfoSection {
         Group {
             Image("/images/me.jpeg")
                 .resizable()
-                .frame(width: 128, height: 128)
+                .frame(width: 144, height: 144)
                 .cornerRadius(.max)
             
             Text("Hi there 👋")
@@ -46,16 +46,11 @@ private extension InfoSection {
                     Image(media.iconString)
                         .resizable()
                         .frame(width: 40, height: 40)
-//                        .foregroundStyle(.red)
                         
                 }
-                .margin(.horizontal, 16)
-//                .linkStyle(.button)
-////                .role(.light)
-//                .target(.blank)
-//                .relationship(.noOpener, .noReferrer)
-//                .margin(.trailing, 20)
-//                .foregroundStyle(.red)
+                .target(.blank)
+                .relationship(.noOpener, .noReferrer)
+                .margin(.horizontal, 24)
             }
         }
         .margin(.top, 28)
