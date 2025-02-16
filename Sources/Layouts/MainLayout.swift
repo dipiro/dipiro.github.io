@@ -7,8 +7,9 @@ struct MainLayout: Layout {
             HTMLHead(for: page)
             HTMLBody {
                 NavigationBar(logo: "Dzmitry Pirozhnik") {
-                    navLink("Email", target: "https://github.com/twostraws/Ignite")
-                    navLink("Resume", target: "https://github.com/twostraws/Ignite")
+                    navLink("App Store", target: AppConstants.Media.appStore.urlString)
+                    navLink("Email", target: AppConstants.Media.email.urlString)
+                    navLink("Resume", target: AppConstants.Media.resume.urlString)
                 }
                 .navigationItemAlignment(.trailing)
                 .background(.clear)

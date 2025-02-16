@@ -18,15 +18,26 @@ struct ProjectSection: HTML {
                             .font(.title4)
                             .fontWeight(.bold)
                         Text(project.description)
-                            .frame(height: 50)
-                        Link("App Store", target: project.appstore)
+                        Group {
+                            Link("App Store", target: project.appstore)
+                                .target(.blank)
+                                .relationship(.noOpener, .noReferrer)
+                            if let github = project.github {
+                                Link("Github", target: github)
+                                    .target(.blank)
+                                    .relationship(.noOpener, .noReferrer)
+                                    .margin(.leading, 24)
+                            }
+                        }
+                        
                     }
                     .horizontalAlignment(.center)
                     .margin(16)
                 }
-                .margin(.horizontal, 8)
+                .margin(.horizontal, 4)
                 .background(AppConstants.Colors.subblock)
                 .cornerRadius(16)
+                .margin(.bottom, 8)
             }
         }
         .columns(3)

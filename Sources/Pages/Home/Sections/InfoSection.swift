@@ -29,13 +29,13 @@ private extension InfoSection {
                 .margin(.top, 24)
             
             Group {
-                Text("I am an iOS Software Engineer with 4 years of experience in Swift, SwiftUI, and UIKit.")
+                Text("I am an iOS Software Engineer with 4 years of experience developing applications for Apple devices.")
                     .margin(.top, 24)
-                Text("Published and managed 10+ applications on the App Store maintaining a 4+ star rating.")
+                Text("I have published and managed 10+ applications on the App Store, maintaining a 4+ star rating.")
                     .margin(.bottom, 24)
             }
             .horizontalAlignment(.center)
-            .frame(maxWidth: 640)
+            .frame(maxWidth: 740)
         }
     }
     

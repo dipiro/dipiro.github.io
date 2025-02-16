@@ -7,9 +7,7 @@ struct ExperienceSection: HTML {
     var body: some HTML {
         VStack {
             Section {
-                ForEach(AppContent.jobs) { job in
-                    Spacer()
-                    
+                ForEach(AppContent.jobs) { job in                    
                     Grid {
                         Section {
                             Text(job.position)
