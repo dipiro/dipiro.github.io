@@ -10,7 +10,7 @@ struct InfoSection: HTML {
             into
             infoLinks
         }
-        .frame(minHeight: .vh(90%))
+        .frame(minHeight: .vh(77%))
     }
 }
 

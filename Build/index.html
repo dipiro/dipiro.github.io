@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Dzmitry Piroznik" name="author" />
     <meta content="Ignite v0.2.1" name="generator" />
-    <title>Home – My Awesome Site</title>
+    <title>HomeiOS Developer Portfolio</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/prism-xcode-dark.css" rel="stylesheet" data-highlight-theme="xcode-dark" />
     <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
     <link href="/css/themes.min.css" rel="stylesheet" />
     <link href="https://dipiro.github.io/" rel="canonical" />
-    <meta content="Hello World" property="og:site_name" />
+    <meta content="Portfolio" property="og:site_name" />
     <meta content="Home" property="og:title" />
     <meta content="Home" name="twitter:title" />
     <meta content="https://dipiro.github.io/" property="og:url" />
@@ -25,6 +27,8 @@
           <button type="button" class="btn navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="col justify-content-end mb-2 mb-md-0 navbar-nav">
+              <li class="nav-item"><a href="https://www.linkedin.com/in/dmitry-pirozhnik/" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">LinkedIn</a></li>
+              <li class="nav-item"><a href="https://github.com/dipiro" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Github</a></li>
               <li class="nav-item"><a href="https://apps.apple.com/us/developer/dzmitry-pirozhnik/id1736014520" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">App Store</a></li>
               <li class="nav-item"><a href="mailto:pirozhnik.dmitry@gmail.com" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Email</a></li>
               <li class="nav-item"><a href="https://docs.google.com/document/d/13iOmxjnXDqfqx7iTcohtANk8hC7z502sFN8O9gYFZ14/edit?usp=sharing" rel="noopener noreferrer" target="_blank" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover nav-link">Resume</a></li>
@@ -34,20 +38,23 @@
       </nav>
     </header>
     <div>
-      <div class="justify-content-center align-items-center vstack" style="min-height: 90.0vh">
+      <div class="justify-content-center align-items-center vstack" style="min-height: 77.0vh">
         <img alt="" src="/images/me.jpeg" class="img-fluid justify-content-center align-items-center mb-0" style="border-radius: 9223372036854775807px; height: 144px; width: 144px" />
         <h1 class="mb-0" style="font-weight: 900; margin-top: 24px">Hi there 👋</h1>
         <p class="justify-content-center align-items-center mb-0 text-center" style="margin-top: 24px; max-width: 740px">I am an iOS Software Engineer with 4 years of experience developing applications for Apple devices.</p>
         <p class="justify-content-center align-items-center mb-0 text-center" style="margin-bottom: 24px; max-width: 740px">I have published and managed 10+ applications on the App Store, maintaining a 4+ star rating.</p>
         <p class="mb-0" style="margin-top: 28px"><a href="https://www.linkedin.com/in/dmitry-pirozhnik/" rel="noopener noreferrer" target="_blank" class="link-plain link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-left: 24px; margin-right: 24px"><img alt="" src="/images/linkedin1.svg" class="img-fluid justify-content-center align-items-center" style="height: 40px; width: 40px" /></a><a href="https://github.com/dipiro" rel="noopener noreferrer" target="_blank" class="link-plain link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-left: 24px; margin-right: 24px"><img alt="" src="/images/github1.svg" class="img-fluid justify-content-center align-items-center" style="height: 40px; width: 40px" /></a><a href="https://apps.apple.com/us/developer/dzmitry-pirozhnik/id1736014520" rel="noopener noreferrer" target="_blank" class="link-plain link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-left: 24px; margin-right: 24px"><img alt="" src="/images/appstore.svg" class="img-fluid justify-content-center align-items-center" style="height: 40px; width: 40px" /></a><a href="mailto:pirozhnik.dmitry@gmail.com" rel="noopener noreferrer" target="_blank" class="link-plain link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-left: 24px; margin-right: 24px"><img alt="" src="/images/email.svg" class="img-fluid justify-content-center align-items-center" style="height: 40px; width: 40px" /></a><a href="https://docs.google.com/document/d/13iOmxjnXDqfqx7iTcohtANk8hC7z502sFN8O9gYFZ14/edit?usp=sharing" rel="noopener noreferrer" target="_blank" class="link-plain link-underline link-underline-opacity-100 link-underline-opacity-100-hover" style="margin-left: 24px; margin-right: 24px"><img alt="" src="/images/resume.svg" class="img-fluid justify-content-center align-items-center" style="height: 40px; width: 40px" /></a></p>
       </div>
-      <table class="table" style="margin-bottom: 24px; margin-top: 72px">
-        <tbody>
-          <tr>
-            <td><h1 class="text-center" style="font-weight: 900; margin-bottom: 0px">EXPERIENCE</h1></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="justify-content-center align-items-center vstack">
+        <table class="justify-content-center align-items-center mb-0 table" style="margin-bottom: 24px; margin-top: 72px; max-width: 740px">
+          <tbody>
+            <tr>
+              <td><h1 class="text-center" style="font-weight: 900; margin-bottom: 0px">EXPERIENCE</h1></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="justify-content-center align-items-center" style="height: 20px"></div>
+      </div>
       <div class="justify-content-center align-items-center" style="height: 20px"></div>
       <div class="justify-content-center align-items-center vstack">
         <div class="justify-content-center align-items-center mb-0 text-center" style="width: 76.0%">
@@ -100,13 +107,16 @@
           <div class="justify-content-center align-items-center" style="height: 20px"></div>
         </div>
       </div>
-      <table class="table" style="margin-bottom: 24px; margin-top: 72px">
-        <tbody>
-          <tr>
-            <td><h1 class="text-center" style="font-weight: 900; margin-bottom: 0px">PERSONAL PROJECTS</h1></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="justify-content-center align-items-center vstack">
+        <table class="justify-content-center align-items-center mb-0 table" style="margin-bottom: 24px; margin-top: 72px; max-width: 740px">
+          <tbody>
+            <tr>
+              <td><h1 class="text-center" style="font-weight: 900; margin-bottom: 0px">PERSONAL PROJECTS</h1></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="justify-content-center align-items-center" style="height: 20px"></div>
+      </div>
       <div class="justify-content-center align-items-center" style="height: 20px"></div>
       <div class="row row-cols-1 row-cols-md-3">
         <div class=" col">
@@ -147,13 +157,16 @@
           </div>
         </div>
       </div>
-      <table class="table" style="margin-bottom: 24px; margin-top: 72px">
-        <tbody>
-          <tr>
-            <td><h1 class="text-center" style="font-weight: 900; margin-bottom: 0px">SKILLS</h1></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="justify-content-center align-items-center vstack">
+        <table class="justify-content-center align-items-center mb-0 table" style="margin-bottom: 24px; margin-top: 72px; max-width: 740px">
+          <tbody>
+            <tr>
+              <td><h1 class="text-center" style="font-weight: 900; margin-bottom: 0px">SKILLS</h1></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="justify-content-center align-items-center" style="height: 20px"></div>
+      </div>
       <div class="justify-content-center align-items-center" style="height: 20px"></div>
       <div style="background-color: rgb(35 35 38 / 100%); border-radius: 16px; margin-bottom: 16px">
         <h4 style="padding: 16px"><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Swift</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">UIKit</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">SwiftUI</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Core Data</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Swift Data</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">AVFoundation</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Combine</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Firebase</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Core Graphics</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Core Bluetooth</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Core Location</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Core Animation</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">StoreKit</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">SceneKit</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">HealthKit</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">VisionKit</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">XCTest</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">Alamofire</span><span class="badge bg-secondary-subtle rounded-pill text-secondary-emphasis" style="margin: 8px">GraphQL</span></h4>
@@ -164,6 +177,7 @@
     </div>
     <p class="mt-5 text-center">Created in Swift with <a href="https://github.com/twostraws/Ignite" class="link-underline link-underline-opacity-100 link-underline-opacity-100-hover">Ignite</a></p>
     <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/syntax-highlighting.js"></script>
     <script src="/js/ignite-core.js"></script>
   </body>
 </html>

@@ -7,6 +7,8 @@ struct MainLayout: Layout {
             HTMLHead(for: page)
             HTMLBody {
                 NavigationBar(logo: "Dzmitry Pirozhnik") {
+                    navLink("LinkedIn", target: AppConstants.Media.linkedIn.urlString)
+                    navLink("Github", target: AppConstants.Media.gihtub.urlString)
                     navLink("App Store", target: AppConstants.Media.appStore.urlString)
                     navLink("Email", target: AppConstants.Media.email.urlString)
                     navLink("Resume", target: AppConstants.Media.resume.urlString)

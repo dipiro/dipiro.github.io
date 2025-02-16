@@ -7,7 +7,7 @@ enum AppConstants {
     }
     
     enum Media: CaseIterable {
-        case gihtub, linkedIn, appStore, resume, email
+        case linkedIn, gihtub, appStore, email, resume
         
         var urlString: String {
             switch self {

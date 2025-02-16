@@ -23,17 +23,25 @@ struct Home: StaticLayout {
 private extension Home {
     func titleSection(_ title: String) -> some HTML {
         Group {
-            Table {
-                Row {
-                    Text(title)
-                        .horizontalAlignment(.center)
-                        .font(.title1)
-                        .fontWeight(.black)
-                        .margin(.bottom, 0)
+            VStack {
+                Group {
+                    Table {
+                        Row {
+                            Text(title)
+                                .horizontalAlignment(.center)
+                                .font(.title1)
+                                .fontWeight(.black)
+                                .margin(.bottom, 0)
+                        }
+                    }
+                    .margin(.top, 72)
+                    .margin(.bottom, 24)
+                    .frame(maxWidth: 740, alignment: .center)
+                    
+                    Spacer()
                 }
             }
-            .margin(.top, 72)
-            .margin(.bottom, 24)
+            .frame(alignment: .center)
             
             Spacer()
         }

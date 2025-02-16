@@ -15,25 +15,18 @@ struct IgniteWebsite {
 }
 
 struct ExampleSite: Site {    
-    var name = "Hello World"
-    var titleSuffix = " – My Awesome Site"
+    var name = "Portfolio"
+    var titleSuffix = "iOS Developer Portfolio"
     var url = URL(static: "https://dipiro.github.io")
+    
     var builtInIconsEnabled = true
+    var syntaxHighlighters: [HighlighterLanguage] = [.swift, .git]
 
-    var author = ""
+    var author = "Dzmitry Piroznik"
     
     var lightTheme: (any Theme)? = nil
     var darkTheme: (any Theme)? = MyDarkTheme()
 
     var homePage = Home()
     var layout = MainLayout()
-}
-
-struct MyDarkTheme: DarkTheme {
-    static var name: String = "dark"
-    var syntaxHighlighterTheme: HighlighterTheme = .xcodeDark
-    var background: Color = .init(hex: "#060606")
-//    var light: Color = .red
-//    var accent: Color = .blue
-    
 }
