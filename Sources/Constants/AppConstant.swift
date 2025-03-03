@@ -18,7 +18,7 @@ enum AppConstants {
             case .appStore:
                 return "https://apps.apple.com/us/developer/dzmitry-pirozhnik/id1736014520"
             case .resume:
-                return "https://docs.google.com/document/d/13iOmxjnXDqfqx7iTcohtANk8hC7z502sFN8O9gYFZ14/edit?usp=sharing"
+                return "https://docs.google.com/document/d/1MtHAC8w7NlVCtULfiDtE02eGFbs06NbnmocMp5TMIaI/edit?usp=sharing"
             case .email:
                 return "mailto:pirozhnik.dmitry@gmail.com"
             }
